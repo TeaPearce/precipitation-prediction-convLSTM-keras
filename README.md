@@ -1,11 +1,20 @@
 # CIKM AnalytiCup 2017 challenge entry
 
+## Intro
 
 Rough unedited code used in data science contest - CIKM AnalytiCup 2017 challenge - to predict short-term rainfall. 
 
 This solution used a convolutional recurrent neural network (convLSTM) analysing sequential radar maps. Maps were provided at 4 different altitudes, and a separated model was built for each, with predictions averaged.
 
 Final score (RMSE) was 14.8 (top 100), relative to top 5 accuracies ranging 11.0 to 13.3.
+
+## Data wrangling
+
+Data was provided in text file format. The first part of the program processes and stores this as .h5 file systems for ease of loading and analysing (data was too large to fit into memory).
+
+Missing data points were simply assigned the median value of that image.
+
+## Competition details
 
 (https://tianchi.aliyun.com/competition/information.htm?raceId=231596&_lang=en_US)
 
