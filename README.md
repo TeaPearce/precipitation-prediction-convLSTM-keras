@@ -14,9 +14,9 @@ Solution was inspired by the paper [Convolutional LSTM Network: A Machine Learni
 
 Final score (RMSE) was 14.8 (top 100), relative to top 5 accuracies ranging 11.0 to 13.3.
 
-<img width="500" src="visual prediction.PNG">
+<img width="900" src="visual prediction.PNG">
 
-_Static illustration - two radar maps are input and the system predicts the state 15 minutes into the future_
+_Static illustration - two of the radar maps input and the system prediction for the state 15 minutes into the future, compared to the truth._
 
 ## Data wrangling
 
